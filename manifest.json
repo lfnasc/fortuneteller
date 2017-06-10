@@ -16,6 +16,10 @@
     "default_popup": "popup.html",
     "default_title": "Fortune Teller"
   },
+  "background" : {
+    "scripts" : ["background.js"],
+    "persistent" : true
+  },
   "icons" : {
       "48" : "icon48.png",
       "128" : "icon128.png"
