@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fortune Teller Chrome Extension",
+  "description": "This extension aims to show the workflow and communication
+  between all the main components in a Chrome extension, as well as the
+  limitations of each one in its individual context.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
