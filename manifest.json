@@ -6,6 +6,20 @@
   between all the main components in a Chrome extension, as well as the
   limitations of each one in its individual context.",
   "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "16" : "icon16.png",
+      "32" : "icon32.png",
+      "48" : "icon48.png",
+      "128" : "icon128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Fortune Teller"
+  },
+  "icons" : {
+      "48" : "icon48.png",
+      "128" : "icon128.png"
+  },
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
