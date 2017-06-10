@@ -1,0 +1,30 @@
+{
+  "name": "fortuneteller",
+  "version": "1.0.0",
+  "description": "This extension aims to show the workflow and communication between all the main components in a Chrome extension, as well as the limitations of each one in its individual context.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfnasc/fortuneteller.git"
+  },
+  "keywords": [
+    "Fortune",
+    "Teller",
+    "Chrome",
+    "Extension",
+    "Browser",
+    "Action",
+    "Background",
+    "Content",
+    "Scripts"
+  ],
+  "author": "Leonardo Nascimento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfnasc/fortuneteller/issues"
+  },
+  "homepage": "https://github.com/lfnasc/fortuneteller#readme"
+}
