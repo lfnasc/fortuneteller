@@ -15,16 +15,17 @@ const sendMessageWithOptions = (greeting, options, callback) => {
 
 // business functions
 const renderMessage = text => {
-  getElementById('chat').innerHTML += `<p> ${text} </p>`;
+  // getElementById('chat').innerHTML += `<p> ${text} </p>`;
+  getElementById('chat').insertAdjacentHTML('afterbegin', `<p> ${text} </p>`);
 };
 
 const setClickSendButton = () => {
   getElementById('sendButton').addEventListener('click', () => {
-    const chat = getElementById('textMessage').value;
-    renderMessage(`Eu: ${chat}`);
-    sendMessageWithOptions('CHAT', chat, (response) => {
+    const question = getElementById('textMessage').value;
+    sendMessageWithOptions('CHAT', question, (response) => {
       const answer = response.answer;
       renderMessage(`Ft: ${answer}`);
+      renderMessage(`Eu: ${question}`);
     });
   });
 };

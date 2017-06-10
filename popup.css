@@ -6,8 +6,7 @@ body {
 .ftpopup--chat {
   width: 300px;
   max-height: 200px;
-  white-space: pre;
-  text-overflow: ellipsis;
+  padding: 10px;
   overflow: auto;
 }
 
@@ -21,6 +20,12 @@ body {
 .ftpopup--text {
   width: 100%;
   text-align: center;
+}
+
+.ftpopup--text-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .ftpopup--inputtext {
