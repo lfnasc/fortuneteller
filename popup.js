@@ -22,8 +22,9 @@ const setClickSendButton = () => {
   getElementById('sendButton').addEventListener('click', () => {
     const chat = getElementById('textMessage').value;
     renderMessage(`Eu: ${chat}`);
-    sendMessageWithOptions('CHAT', chat, () => {
-      // treatment to response
+    sendMessageWithOptions('CHAT', chat, (response) => {
+      const answer = response.answer;
+      renderMessage(`Ft: ${answer}`);
     });
   });
 };
