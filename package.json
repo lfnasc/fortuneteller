@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/lfnasc/fortuneteller/issues"
   },
-  "homepage": "https://github.com/lfnasc/fortuneteller#readme"
+  "homepage": "https://github.com/lfnasc/fortuneteller#readme",
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
+  }
 }
