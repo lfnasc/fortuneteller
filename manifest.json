@@ -20,12 +20,22 @@
     "scripts" : ["background.js"],
     "persistent" : true
   },
+  "content_scripts" : [
+    {
+      "matches" : ["https://www.google.com/*", "https://www.google.com.br/*"],
+      "css" : ["contentscript.css"],
+      "js" : ["contentscript.js"]
+    }
+  ],
   "icons" : {
       "48" : "icon48.png",
       "128" : "icon128.png"
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
+    "https://ajax.googleapis.com.br/",
+    "tabs",
+    "https://www.google.com/*",
+    "https://www.google.com.br/*"
   ]
 }
