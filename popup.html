@@ -1,9 +1,22 @@
 <html>
   <meta charset="utf-8"/>
   <head>
+    <title>Fortune Teller Chrome Extension</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
     <script src="popup.js"></script>
   </head>
   <body>
-    <p>Hello!</p>
+    <div id="chat" class="ftpopup--chat">
+      <p class="ftpopup--text">Fortune Teller</p>
+    </div>
+    <div id="form" class="ftpopup--form">
+      <hr>
+      <p class="ftpopup--text">Faça uma pergunta sobre o futuro que possa ser respondida com sim ou
+        não.
+      </p>
+      <input id="textMessage" type="text" name="message" class="ftpopup--inputtext">
+      <br>
+      <button id="sendButton" type="button" class="ftpopup--button">Enviar</button>
+    </div>
   </body>
 </html>
