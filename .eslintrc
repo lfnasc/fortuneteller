@@ -1,3 +1,7 @@
 {
-  "extends" : "rallycoding"
+  "extends" : "rallycoding",
+  "globals" : {
+    "document" : true,
+    "chrome" : true
+  }
 }
