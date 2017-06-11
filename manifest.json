@@ -31,6 +31,9 @@
       "48" : "icon48.png",
       "128" : "icon128.png"
   },
+  "web_accessible_resources": [
+      "*.png"
+  ],
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com.br/",

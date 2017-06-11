@@ -1,3 +1,27 @@
-.ft--notice {
-  /* Put here the styles of fortune teller notice class */
+.ftcs--warning {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  right: 30px;
+  top: 150px;
+  float: right;
+  z-index: 1000;
+  background-color: #e3e3e3;
+  border: solid 2px #e3e3e3;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ftcs--logo {
+  width: 32px;
+  height: 32px;
+  margin-top: 25px;
+}
+
+.ftcs--text {
+  margin-top: 10px;
+  color: #000000;
 }
